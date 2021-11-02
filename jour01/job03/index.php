@@ -12,30 +12,34 @@
 
     //ce qui est demandé par l'intra
     echo "<table>
-            <tr>
-                <th>type</th>
-                <th>nom</th>
-                <th>valeur</th>
-            </tr>
-            <tr>
-                <td>string</td>
-                <td>$ string</td>
-                <td>ceci est une string</td>
-            </tr>
-            <tr>
-                <td>bool</td>
-                <td>$ booleen</td>
-                <td>true</td>
-            </tr>
-            <tr>
-                <td>entier</td>
-                <td>$ entier</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>decimal</td>
-                <td>$ decimal</td>
-                <td>5.7</td>
-            </tr>
+            <thead>
+                <tr>
+                    <th>type</th>
+                    <th>nom</th>
+                    <th>valeur</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>string</td>
+                    <td>$ string</td>
+                    <td>ceci est une string</td>
+                </tr>
+                <tr>
+                    <td>bool</td>
+                    <td>$ booleen</td>
+                    <td>true</td>
+                </tr>
+                <tr>
+                    <td>entier</td>
+                    <td>$ entier</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>nombre flottant</td>
+                    <td>$ decimal</td>
+                    <td>5.7</td>
+                </tr>
+            </tbody>
     </table>"
 ?>
