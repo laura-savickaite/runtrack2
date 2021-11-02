@@ -3,7 +3,7 @@
     $str2="Vive ";
     $str3=" !";
     $val = 6 . 4;
-    $myBool = true;
+    $myBool = false;
 
 
     echo $str2, $str, $str3;
