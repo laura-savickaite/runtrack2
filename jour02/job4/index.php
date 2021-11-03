@@ -12,7 +12,7 @@ while ($index<=100){
              echo ("Buzz <br/>");
          }
         else {
-        echo "$index <br/>"; 
+        echo $index. "<br/>"; 
         }
  
         $index++;
