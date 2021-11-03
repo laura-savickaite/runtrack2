@@ -1,17 +1,17 @@
 <?php
-    $index=0;
 
-while ($index <= 1000) {
+for($index=2; $index <= 1000; $index++) {
+    $nbdiviseurs=0;
+    
 
-    if (!($index%1==0 && $index%$index==0)){
-        echo $index. "<br/>";
+    for($jIndex=2; $jIndex<=$index; $jIndex++){
+        if ($index % $jIndex==0) {
+            $nbdiviseurs++;
+        }
     }
 
-    // tout est divisible par 1 et soi-mm, il faut qu'il n'y ait que 2 diviseurs et deux diviseurs seulement
-
-    // $nbdiviseurs == 2;
-    
-//    echo "$index <br/>";
-   $index++;
+        if ($nbdiviseurs==1){
+            echo $index."</br>";
+        }
 }
 ?>
