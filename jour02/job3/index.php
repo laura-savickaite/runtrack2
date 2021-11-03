@@ -16,7 +16,7 @@ while ($index <= 100){
     }
     
     else{
-        echo "$index <br/>";
+        echo $index . "<br/>";
        } 
 
         $index++;
