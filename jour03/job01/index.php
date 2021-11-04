@@ -15,5 +15,4 @@ for($index=0; $tableau[$index]==true; $index++) {
     }
 }
 
-
 ?>
