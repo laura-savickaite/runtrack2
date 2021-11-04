@@ -8,6 +8,6 @@ for($index=0; $str[$index]==true; $index++){
         echo $str[$index];}
     }
 
-
+    //à faire avec une deuxième chaine de caractères composée de voyelles et les comparer ensemble avec un for/while
 
 ?>
