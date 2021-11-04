@@ -30,11 +30,6 @@ for ($index=0; isset($str[$index])==true; $index++){
 echo $compteur."<br/>";
 echo $compteur2;
 
-// while (isset($str[$index])==true) {
-//     echo $str[$index];
-//     $index++;
-// }
-// echo $index;
 
     // for str index
     // for string dans boucle consonnes
