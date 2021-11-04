@@ -2,7 +2,7 @@
 
 $str="Tous ces instants seront perdus dans le temps comme les larmes sous la pluie.";
 
-var_dump($str);
+//var_dump($str);
 
 $index=0; //mon index counter de char
 

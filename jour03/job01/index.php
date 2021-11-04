@@ -2,7 +2,7 @@
 
 $tableau=array(200, 204, 173, 98, 171, 404, 459);
 
-var_dump ($tableau);
+//var_dump ($tableau);
 // echo $tableau[0];
 
 // $index=0; //mon index counter
