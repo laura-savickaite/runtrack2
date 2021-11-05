@@ -8,7 +8,7 @@
     }
 ?>
 
-<form action="index.php" method="post">
+<form action="index.php" method="get">
     <div>
         <label for="nombre">nombre :</label>
         <input type="text" id="number" name="nombre">
