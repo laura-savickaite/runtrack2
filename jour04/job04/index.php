@@ -1,4 +1,8 @@
+<?php var_dump ($_POST);
+?>
+
 <table>
+    
 <thead>
     <th>
         arguments
@@ -8,12 +12,16 @@
     </th>
 </thead>
 <tbody>
-    <tr><td>username</td>
-    <td><?php echo $_POST ["username"]?></td></tr>
+<?php 
+    $index=0;
 
-    <tr><td>password</td>
-        <td><?php echo $_POST ["password"] ?></td></tr>
-        
+    foreach ($_POST as $value){
+        $index++;
+    ?>
+    <tr><td><?php echo $index;?></td>
+    <td><?php echo $value;?></td></tr>
+
+ <?php  }     ?>  
 </tbody>
 </table>
 
