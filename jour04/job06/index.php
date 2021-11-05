@@ -11,7 +11,7 @@
 <form action="index.php" method="get">
     <div>
         <label for="nombre">nombre :</label>
-        <input type="text" id="number" name="nombre">
+        <input type="number" id="number" name="nombre">
     </div>
     <button type="submit">Submit</button>
 </form>
