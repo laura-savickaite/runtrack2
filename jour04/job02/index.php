@@ -12,12 +12,18 @@
     </th>
 </thead>
 <tbody>
-    <tr><td>Nom</td>
-    <td><?php echo $_GET ["nom"]?></td></tr>
+<?php 
+    //si on veut vérifier --- que ça existe = une sécurité, une bonne habitude à prendre
+    // if(isset($_GET["nom"]) && isset($_GET["prenom"]));
 
-    <tr><td>Prenom</td>
-        <td><?php echo $_GET ["prénom"] ?></td></tr>
-        
+    foreach ($_GET as $value){
+        $index++;
+    ?>
+    <tr><td><?php echo $index;?></td>
+    <td><?php echo $value;?></td></tr>
+
+ <?php  }     ?> 
+                                               
 </tbody>
 </table>
 
@@ -33,4 +39,5 @@
         <input type="text" id="prenom" name="prénom">
     </div>
     <button type="submit">Submit</button>
+    <button type="reset" value="Reset" name="reset">Reset</button>
 </form>
