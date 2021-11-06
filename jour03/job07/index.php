@@ -2,16 +2,20 @@
 $str="Certaines choses changent, et d'autres ne changeront jamais.";
 
 
-
+$var="";
 for($index=0; isset($str[$index])==true; $index++){
     $actuel=$str[$index];
     $voisin=$str[$index+1];
-    echo $actuel;
-    echo $voisin;  
+    // echo $actuel;
+    // echo $voisin; 
+
+
+
 
     foreach ($str as $actuel=>$voisin){
         echo $str;
     }
+
     
     }
    
