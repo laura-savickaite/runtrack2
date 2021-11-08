@@ -1,11 +1,26 @@
 <?php
 
+// if ($_POST["gras"]){
+//     gras($_POST["str"]);
+// }
+// if ($_POST["cesar"]){
+//     cesar($_POST["str"]);
+// }
+// if ($_POST["plateforme"]){
+//     plateforme($_POST["str"]);
+// }
 
-function gras ($str){
+// en haut c'est plus ou moins pareil que le if d'en bas (à vérifier)
+
+if (isset($_POST["select"])){
+    gras($_POST["str"]);
+    cesar($_POST["str"]);
+    plateforme($_POST["str"]);
+}                                                      
+
+function gras ($str) {
     for($index=0; isset($str[$index])==true; $index++){
-
-        if (($str[0])=="A" || ($str[0])=="B" || ($str[0])=="C" || ($str[0])=="D" || ($str[0])=="E" || ($str[0])=="F"|| ($str[0])=="G"|| ($str[0])=="H"|| ($str[0])=="I"|| ($str[0])=="J"|| ($str[0])=="K"|| ($str[0])=="L"|| ($str[0])=="M"|| ($str[0])=="N"|| ($str[0])=="O"|| ($str[0])=="P"|| ($str[0])=="Q"|| ($str[0])=="R"|| ($str[0])=="S"|| ($str[0])=="T"|| ($str[0])=="U"|| ($str[0])=="V"|| ($str[0])=="W"|| ($str[0])=="X"|| ($str[0])=="Y"|| ($str[0])=="Z")
-        {
+        
             echo "<b>". $str ."</b>";
         }
 }
@@ -17,14 +32,13 @@ function gras ($str){
 //         UC
 // }
 
-function plateforme ($str){
-    for($index=0; isset($str[$index])==true; $index++){
-
-        if (
-        {
-            echo $str+"_";
-        }
-}
+// function plateforme ($str){
+//     for($index=0; isset($str[$index])==true; $index++){
+//         if (jsp si isset derniers index = me)
+//         {
+//             echo $str+"_";
+//         }
+// }
 ?>
 
 <form action="index.php" method="post">
