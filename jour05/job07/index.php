@@ -1,7 +1,7 @@
 <?php
 
 // if ($_POST["gras"]){
-//     gras($_POST["str"]);
+//     echo gras($_POST["str"]);
 // }
 // if ($_POST["cesar"]){
 //     cesar($_POST["str"]);
@@ -12,18 +12,29 @@
 
 // en haut c'est plus ou moins pareil que le if d'en bas (à vérifier)
 
-if (isset($_POST["select"])){
-    gras($_POST["str"]);
-    cesar($_POST["str"]);
-    plateforme($_POST["str"]);
-}                                                      
+// if (isset($_POST["select"])){
+//     echo gras($_POST["str"]);
+//     cesar($_POST["str"]);
+//     plateforme($_POST["str"]);
+// }                                                      
+
+
 
 function gras ($str) {
-    for($index=0; isset($str[$index])==true; $index++){
-        
-            echo "<b>". $str ."</b>";
+    $majuscules=array("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z");
+    if (isset($_POST['valider']))
+    {
+        for($index=0; isset($str[$index])==true; $index++){
+            for ($maj=0; isset($majuscules[$maj])==true; $maj++){
+                if($str[$index]==$majuscules[$maj]){
+                    echo "<b>" . $str. "<b/>";  
+                } 
+            }
         }
+    } 
 }
+
+gras($_POST['str']);
 
 // $decalage=2;
 // function cesar ($str, $decalage){
@@ -55,5 +66,5 @@ function gras ($str) {
                 <option value="plateforme">Plateforme</option>
             </select>
     </div>
-    <button type="submit">Submit</button>
+    <button type="submit" name="valider">Submit</button>
 </form>
