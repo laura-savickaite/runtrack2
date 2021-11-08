@@ -1,6 +1,7 @@
 <?php
 
-function calcule
+
+function calcule (a,operation,)
 
 
 ?>

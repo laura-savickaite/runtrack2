@@ -1,8 +1,10 @@
 <?php
 
-echo gethello (1);
+$x=gethello (1);
+echo $x;
 
 function gethello ($gethello){
+
     if ($gethello=1) {
         return ("Hello la Plateforme!");
     }
