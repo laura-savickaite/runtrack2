@@ -16,7 +16,6 @@ function occurrences ($str, $char) {
             } 
         } 
 
-        
         return ($nbchar);
         } 
 }
