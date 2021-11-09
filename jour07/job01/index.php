@@ -1,14 +1,14 @@
 <?php
 session_start();
 
-$_SESSION['nbdevisites']=$_SESSION['nbdevisites']+1;
+$_SESSION['nbvisites']=$_SESSION['nbvisites']+1;
 
-echo $_SESSION['nbdevisites'];
+echo $_SESSION['nbvisites'];
 
 if (isset($_POST["reset"])){
     session_destroy();
 }else {
-    $_SESSION['nbdevisites'];
+    $_SESSION['nbvisites'];
 }
 
 ?>
