@@ -10,7 +10,6 @@ $_SESSION['prenom'] .= ' '.$_POST['prenom'];
 
 echo $_SESSION['prenom'];
 
-var_dump ($_SESSION['prenom']);
 
 if (isset($_POST["reset"])){
     session_destroy();

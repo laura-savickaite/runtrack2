@@ -3,7 +3,7 @@
 setcookie('prenom', $_POST['prenom'], time()+365*24*3600);
 
 if (isset($_POST["deco"])){
-     setcookie('prenom');
+     //setcookie('prenom');
      echo '<style>
         #formulaire {
             visibility:visible;
