@@ -1,22 +1,25 @@
 <?php
 
+if (isset($_POST["-"])){
+    echo "X";
+}
 
 ?>
 
 <table>
         <tr>
-            <td>X</td>
-            <td>XX</td>
-            <td>XXX</td>
+            <td><form action="index.php" method="post"><input type='submit' value='-' name='morpion'></form></td>
+            <td><form action="index.php" method="post"><input type='submit' value='-' name='morpion'></form></td>
+            <td><form action="index.php" method="post"><input type='submit' value='-' name='morpion'></form></td>
         </tr>
         <tr>
-            <td>X</td>
-            <td>XX</td>
-            <td>XXX</td>
+            <td><form action="index.php" method="post"><input type='submit' value='-' name='morpion'></form></td>
+            <td><form action="index.php" method="post"><input type='submit' value='-' name='morpion'></form></td>
+            <td><form action="index.php" method="post"><input type='submit' value='-' name='morpion'></form></td>
         </tr>
         <tr>
-            <td>X</td>
-            <td>XX</td>
-            <td>XXX</td>
+            <td><form action="index.php" method="post"><input type='submit' value='-' name='morpion'></form></td>
+            <td><form action="index.php" method="post"><input type='submit' value='-' name='morpion'></form></td>
+            <td><form action="index.php" method="post"><input type='submit' value='-' name='morpion'></form></td>
         </tr>
 </table>
