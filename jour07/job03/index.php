@@ -2,7 +2,7 @@
 
 session_start();
 
-$_SESSION['prenom'] .= ' '.$_POST['prenom'];
+$_SESSION['prenom'] .= ''.$_POST['prenom'];
 // .= permet de concatener DONC enchainer deux idées/strings entre elles (ne marche que sur les strings (?)) :: .= concatenating assignment operator ::: ex : 
 //$a = "Bonjour ";
 //$a .= "Monde !"; // $a contient "Bonjour Monde !"
