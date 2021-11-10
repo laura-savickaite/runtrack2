@@ -1,0 +1,1 @@
+$sql = "SELECT SUM(capacite) FROM salles;";
