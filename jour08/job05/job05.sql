@@ -1,1 +1,1 @@
-$sql = "SELECT `prenom`, `nom`, `naissance` FROM `etudiants` WHERE sexe=\"Femme\";";
+SELECT `prenom`, `nom`, `naissance` FROM `etudiants` WHERE sexe=\"Femme\";

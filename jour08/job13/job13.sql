@@ -1,1 +1,1 @@
-$sql = "SELECT AVG(capacite) FROM salles;";
+SELECT AVG(capacite) FROM salles;

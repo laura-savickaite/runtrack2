@@ -1,1 +1,1 @@
-$sql = "SELECT `id`, `prenom`, `nom`, `naissance`, `sexe`, `email` FROM `etudiants` WHERE naissance < \'2003/01/01\';";
+SELECT `id`, `prenom`, `nom`, `naissance`, `sexe`, `email` FROM `etudiants` WHERE naissance < \'2003/01/01\';

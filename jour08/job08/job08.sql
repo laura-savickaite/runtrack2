@@ -1,1 +1,1 @@
-$sql = "SELECT COUNT(*) FROM `etudiants`;";
+SELECT COUNT(*) FROM `etudiants`;

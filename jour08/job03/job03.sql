@@ -1,1 +1,1 @@
-$sql = "SELECT * FROM `etudiants`;";
+SELECT * FROM `etudiants`;
