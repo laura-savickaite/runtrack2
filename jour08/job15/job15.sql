@@ -1,0 +1,1 @@
+$sql = "SELECT salles.nom, etage.nom FROM `salles` INNER JOIN etage ON id_etages=etage.id;";
