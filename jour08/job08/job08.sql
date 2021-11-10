@@ -1,0 +1,1 @@
+$sql = "SELECT COUNT(*) FROM `etudiants`;";
