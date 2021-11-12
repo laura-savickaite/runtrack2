@@ -8,7 +8,7 @@ $select = mysqli_query ($connect, "SELECT * FROM `etudiants`");
 
 $recup = mysqli_fetch_all($select, MYSQLI_ASSOC);
 
-echo "<pre>";var_dump ($recup);echo "</pre>";
+// echo "<pre>";var_dump ($recup);echo "</pre>";
 
 ?>
 
