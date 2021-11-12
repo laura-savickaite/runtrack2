@@ -4,9 +4,9 @@ $connect = mysqli_connect('localhost', 'root', '', 'jour08');
 
 mysqli_set_charset($connect,"utf8");
 
-$select = mysqli_query ($connect, "SELECT * FROM `etudiants`");
+$etudiants = mysqli_query ($connect, "SELECT * FROM `etudiants`");
 
-$recup = mysqli_fetch_all($select, MYSQLI_ASSOC);
+$recup = mysqli_fetch_all($etudiants, MYSQLI_ASSOC);
 
 // echo "<pre>";var_dump ($recup);echo "</pre>";
 
@@ -31,7 +31,7 @@ $recup = mysqli_fetch_all($select, MYSQLI_ASSOC);
     </thead>
     <tbody>
         <?php
-        foreach ($select as $value){
+        foreach ($etudiants as $value){
             echo "<tr><td>". $value ['prenom'] ."</td>";
             echo "<td>". $value ['nom'] ."</td>";
             echo "<td>". $value ['naissance'] ."</td>";
