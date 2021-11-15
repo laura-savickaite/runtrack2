@@ -8,13 +8,7 @@ echo calcule ($a, "-", $b);
 
 
 function calcule ($a,$operation,$b) {
-    //$operation=(+)|| $operation=(-)|| $operation=(*) || $operation=(/) || $operation=(%));
-    // $taboperation= array ("+", "*", "-", "%", "/");
-    // for ($index=0; isset($taboperation[$index])==true; $index++) {
-    //     if ($taboperation[$index]==$operation){
-    //         return ($a + $operation +$b);
-    //     }
-    // }
+
     if ($operation == "+"){
         return ($a + $b);
     }
