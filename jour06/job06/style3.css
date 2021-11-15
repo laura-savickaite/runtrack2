@@ -1,3 +1,12 @@
 body{
     background-color: brown;
 }
+#button {
+    background-color: #4CAF50;
+    font-family: 'Times New Roman', Times, serif;
+}
+select {
+    background-color:#9d93f1;
+    padding:10px;
+    width:280px;
+}

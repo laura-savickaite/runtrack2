@@ -1,3 +1,12 @@
 body {
     background-color: blue;
 }
+#button {
+    background-color: #970410;
+    font-family: 'Courier New', Courier, monospace;
+}
+select {
+    background-color:#f5c6c6;
+    padding:10px;
+    width:280px;
+}

@@ -1,3 +1,12 @@
 body {
     background-color: aquamarine;
 }
+#button {
+    background-color: #f70ef7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+select {
+    background-color:#FAFAFA;
+    padding:10px;
+    width:280px;
+}
