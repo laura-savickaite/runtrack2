@@ -1,3 +1,12 @@
+<?php
+
+if ($_GET["style"]=="style 1"){
+    
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
