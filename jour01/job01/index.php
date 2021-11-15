@@ -6,7 +6,7 @@
     $myBool = false;
 
 
-    echo $str2, $str, $str3;
+    echo $str2. $str. $str3;
     echo $val;
     echo $val + 4;
     echo $myBool;
